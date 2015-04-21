@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>basic mike-crow example</title>
+    <script type="text/javascript" src="../mike-crow.min.js"></script>
+    <script type="text/javascript">
+      // create a mike-crow instance
+      var mc = MikeCrow.create();
+
+      // adding basic functionality
+      mc.add( {get: 'travelLocations'}, function(args, callback){
+        callback(null, ['village'])
+      });
+    </script>
+    <script type="text/javascript" src="forrest.js">
+      // extend functionality by loading optional forrest expansion
+    </script>
+    <script type="text/javascript" src="mine.js">
+      // extend functionality by loading optional mine expansion
+    </script>
+
+    <script type="text/javascript">
+      // retrieve a list of all accessible locations we could travel
+
+      mc.act( {get: 'travelLocations'}, function(err,result){
+        console.log( result )
+      });
+
+      // To deactivate parts of your application just remove the script (forrest, mine) from the html.
+      // The basic application should work on its own. Allways add features in a optional way!
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

@@ -21,7 +21,9 @@ $ npm install mike-crow
 ```
 
 
-## Example
+## Examples
+
+### Node.js
 
 ```javascript
 var mc = require('mike-crow').create();
@@ -37,7 +39,9 @@ mc.act( {cmd:'salestax', net:100}, function(err,result){
 });
 ```
 
+### Browser
 
+Look into the browser/example folder.
 
 ## License
 

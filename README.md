@@ -24,7 +24,7 @@ $ npm install mike-crow
 ## Example
 
 ```javascript
-var mc = require('../lib/index.js').create()
+var mc = require('mike-crow').create();
 
 mc.add( {cmd:'salestax'}, function(args,callback){
   var rate  = 0.23

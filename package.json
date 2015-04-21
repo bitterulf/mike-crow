@@ -4,7 +4,7 @@
   "description": "A minimalistic Micro-Services Framework for Node.js and the browser inspired by seneca.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "micro",

@@ -1,0 +1,32 @@
+{
+  "name": "mike-crow",
+  "version": "0.0.1",
+  "description": "A minimalistic Micro-Services Framework for Node.js and the browser inspired by seneca.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micro",
+    "service",
+    "micro",
+    "services",
+    "micro-service",
+    "micro-services",
+    "microservices",
+    "service",
+    "microservice",
+    "micro"
+  ],
+  "author": "Sebastian Kannegiesser <s_schlender@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.7.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-clean": "^0.6.0"
+  }
+}

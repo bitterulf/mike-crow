@@ -1,3 +1,5 @@
+<img src="https://raw.github.com/bitterulf/mike-crow/master/images/mikecrow-logo.png" />
+
 # Mike Crow
 
 Mike Crow is a Micro-Service toolkit for Node.js and the Browser.
